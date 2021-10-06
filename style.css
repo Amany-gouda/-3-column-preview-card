@@ -1,0 +1,141 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    margin: 50px 20px;
+}
+@media screen and (min-width:768px)  {
+    .container{
+        text-align: center;
+    }
+}
+@media screen and (min-width:1200px)  {
+    .container{
+        flex-direction: row;
+        text-align: left;
+        height:auto;
+    }
+}
+.general{
+    padding:50px;
+    text-align: left;
+}
+@media screen and (min-width:768px)  {
+    .general{
+        text-align: center;
+    }
+}
+@media screen and (min-width:1200px)  {
+    .general{
+        height: auto;
+        width:80%;
+        padding:50px;
+    }
+}
+.title{
+    font-family: "Big Shoulders Display";
+    color:white;
+    text-transform: uppercase;
+    
+}
+@media screen and (min-width:1200px)  {
+
+    .title{
+        font-size: 40px;
+    }
+}
+.par{
+    font-size: 11px;
+    color:white;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    font-family:"Lexend Deca" ;
+}
+@media screen and (min-width:768px)  {
+    .par{
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (min-width:1200px)  {
+    .par{
+        text-align: left;
+        width:auto;
+        margin-bottom: 90px;
+        font-size:19px;
+    }
+}
+.car1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 2%;
+    border-top-right-radius:2% ;
+}
+@media screen and (min-width:1200px)  {
+    .car1{
+        border-radius: 2% 0 0 2%;
+    }
+}
+.car2{
+    background-color: hsl(184, 100%, 22%);
+}
+@media screen and (max-width:1200px) {
+    .car2{
+        
+    }
+}
+.car3{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius:2% ;
+}
+@media screen and (min-width:1200px)  {
+    .car3{
+        border-radius: 0 2% 2% 0;
+    }
+}
+.btn{
+    border-radius: 200px;
+    width:60%;
+    padding:12px;
+    border:none;
+    font-family:"Lexend Deca" ;
+    text-transform: capitalize;
+}
+@media screen and (min-width:768px)  {
+    .btn{
+        width:40%;
+    }
+    
+}
+@media screen and (min-width:1200px)  {
+    .btn{
+        width:45%;
+        padding:17px;
+    }
+}
+.btn1{
+    color:hsl(31, 77%, 52%);
+}
+.btn1:hover{
+    color:white;
+    background-color: hsl(31, 77%, 52%);
+    border:2px solid white;
+}
+.btn2{
+    color:hsl(184, 100%, 22%);
+}
+.btn2:hover{
+    color:white;
+    background-color: hsl(184, 100%, 22%);
+    border:2px solid white;
+}
+.btn3{
+    color:hsl(179, 100%, 13%);
+}
+.btn3:hover{
+    color:white;
+    background-color:hsl(179, 100%, 13%);
+    border:2px solid white;
+}
