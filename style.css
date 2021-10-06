@@ -29,6 +29,7 @@
         height: auto;
         width:80%;
         padding:50px;
+        text-align: left;
     }
 }
 .title{
@@ -64,7 +65,7 @@
         text-align: left;
         width:auto;
         margin-bottom: 90px;
-        font-size:19px;
+        font-size:22px;
     }
 }
 .car1{
